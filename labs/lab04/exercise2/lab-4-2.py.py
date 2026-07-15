@@ -6,5 +6,5 @@ else:
         tax = 0.02
     else:
         tax = 0.01
-totalTax = income * tax
+totalTax = (income * tax)
 print(totalTax)
