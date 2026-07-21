@@ -1,3 +1,3 @@
-pages = int(input())
-totalCost = (0.2 * pages) + 3
-print(totalCost)
+packsEaten = int(input())
+totalCalories = float(40) / 10 * 300 * packsEaten
+print(totalCalories)
