@@ -1,4 +1,4 @@
-kilobyte = int(input())
+kilobyte = float(input())
 megabyte = float(kilobyte) / 1024
 gigabyte = (kilobyte / 1024 ** 2)
 terabyte = (kilobyte / 1024 ** 3)
