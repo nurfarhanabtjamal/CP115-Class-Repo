@@ -4,9 +4,9 @@
         <attribute name="name" value="exercise-3"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-07-22 02:03:00 AM"/>
+        <attribute name="saved" value="2026-07-22 02:24:55 AM"/>
         <attribute name="created" value="VXNlcjtMQVBUT1AtTTVMQko5R0Y7MjAyNi0wNy0yMjswMTo1MDoyMSBBTTsyNzI3"/>
-        <attribute name="edited" value="VXNlcjtMQVBUT1AtTTVMQko5R0Y7MjAyNi0wNy0yMjswMjowMzowMCBBTTsxOzI4MzE="/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtTTVMQko5R0Y7MjAyNi0wNy0yMjswMjoyNDo1NSBBTTsyOzI4NDU="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -18,7 +18,8 @@
             <assign variable="kwh" expression="((watts/1000)/hoursNight)"/>
             <assign variable="costNight" expression="0.218*kwh"/>
             <assign variable="costMonth" expression="costNight*30"/>
-            <output expression="costNight &amp; &quot; and &quot; &amp; costMonth" newline="True"/>
+            <output expression="costNight" newline="True"/>
+            <output expression="costMonth" newline="True"/>
         </body>
     </function>
 </flowgorithm>
